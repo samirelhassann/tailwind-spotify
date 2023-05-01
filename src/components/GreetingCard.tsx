@@ -1,11 +1,11 @@
 import React from "react";
 
 import { Play } from "lucide-react";
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface GreetingCardProps {
     title: string;
-    image: string;
+    image: StaticImageData;
 }
 
 const GreetingCard = ({ title, image }: GreetingCardProps) => {

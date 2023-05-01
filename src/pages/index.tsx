@@ -7,6 +7,8 @@ import GreetingCard from "@/components/GreetingCard";
 import Sidebar from "@/components/Sidebar";
 import SuggestionAlbumCard from "@/components/SuggestionAlbumCard";
 
+import saturnAlbumImage from "/public/saturn-album.jpg";
+
 export default function Home() {
   return (
     <div className="flex flex-col h-screen">
@@ -28,12 +30,12 @@ export default function Home() {
           <h1 className="mt-10 text-3xl font-semibold">Good Afternoon</h1>
 
           <div className="grid grid-cols-3 gap-4 mt-4">
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
-            <GreetingCard title="Saturn - Sleeping at Last" image="/saturn-album.jpg" />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
+            <GreetingCard title="Saturn - Sleeping at Last" image={saturnAlbumImage} />
           </div>
 
           <h2 className="mt-10 text-2xl font-semibold">Made from Samir El Hassan</h2>
@@ -42,13 +44,13 @@ export default function Home() {
 
             <SuggestionAlbumCard
               title="Daily Mix 1"
-              image="/saturn-album.jpg"
+              image={saturnAlbumImage}
               description="redknobs, leo Zane, Poetic papaya and more"
             />
 
             <SuggestionAlbumCard
               title="Daily Mix 1"
-              image="/saturn-album.jpg"
+              image={saturnAlbumImage}
               description="redknobs, leo Zane, Poetic papaya and more"
             />
           </div>

@@ -1,10 +1,10 @@
 import React from "react";
 
-import Image from "next/image";
+import Image, { StaticImageData } from "next/image";
 
 interface SuggestionAlbumCardProps {
     title: string;
-    image: string;
+    image: StaticImageData;
     description: string;
 }
 
