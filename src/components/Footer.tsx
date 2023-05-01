@@ -3,11 +3,13 @@ import React from "react";
 import { Laptop2, List, Maximize2, Mic2, Play, Repeat2, Shuffle, SkipBack, SkipForward, Volume } from "lucide-react";
 import Image from "next/image";
 
+import saturnAlbumImage from "/public/saturn-album.jpg";
+
 const Footer = () => {
   return <footer className="flex items-center justify-between px-6 py-4 border-t bg-zinc-900 border-zinc-800">
     <div className="flex items-center gap-2">
       <Image
-        src="/saturn-album.jpg"
+        src={saturnAlbumImage}
         width={80}
         height={80}
         alt="Saturn album" />
